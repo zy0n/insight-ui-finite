@@ -116,7 +116,7 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  background-color: #242a96;
+  background-color: #225174;
   margin: 0;
   border: 0;
 }
@@ -129,7 +129,7 @@ margin-left: 0;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-  background-color: #154fff;   /*242a96*/
+  background-color: #154fff;   /*225174*/
   color: #fff;
 }
 
@@ -167,7 +167,7 @@ margin-left: 0;
 }
 
 .navbar-form .form-control {
-  background-color: #242a96;
+  background-color: #225174;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -270,7 +270,7 @@ margin-left: 0;
 }
 
 .block-id {
-  background-color: #242a96;
+  background-color: #225174;
   border: 3px solid #FFFFFF;
   margin: 0 auto;
   width: 165px;
@@ -317,8 +317,8 @@ margin-left: 0;
   border-radius: 2px;
 }
 .btn-primary {
-  background-color: #242a96;
-  border: 2px solid #242a96;
+  background-color: #225174;
+  border: 2px solid #225174;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active,
@@ -364,7 +364,7 @@ margin-left: 0;
 }
 
 .txvalues-primary {
-  background-color: #242a96;
+  background-color: #225174;
 }
 
 .txvalues-default {
@@ -387,11 +387,11 @@ margin-left: 0;
   font-size: 14px;
   font-weight: normal;
 }
-.progress-bar-info { background-color: #242a96; }
+.progress-bar-info { background-color: #225174; }
 
 /* Set the fixed height of the footer here */
 #footer {
-  background-color: #242A96;
+  background-color: #225174;
   color: #fff;
   height: 51px;
   overflow: hidden;
@@ -460,7 +460,7 @@ margin-left: 0;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   border-top: none;
-  border: 1px solid #242a96;
+  border: 1px solid #225174;
   padding: 10px 20px;
   position: absolute;
   text-align: center;
@@ -827,7 +827,7 @@ a.v_highlight_more {
   }
   .txvalues-primary {
     background: none;
-    color: #242a96;
+    color: #225174;
   }
   .txvalues-default {
     background: none;

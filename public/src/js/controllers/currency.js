@@ -20,10 +20,10 @@ angular.module('insight.currency').controller('CurrencyController',
 
         if (this.symbol === 'USD') {
           response = _roundFloat((value * this.factor), 2);
-        } else if (this.symbol === 'mFNI') {
+        } else if (this.symbol === 'mFINI') {
           this.factor = 1000;
           response = _roundFloat((value * this.factor), 5);
-        } else if (this.symbol === 'uFNI') {
+        } else if (this.symbol === 'uFINI') {
           this.factor = 1000000;
           response = _roundFloat((value * this.factor), 2);
         } else {
@@ -47,9 +47,9 @@ angular.module('insight.currency').controller('CurrencyController',
         Currency.get({}, function(res) {
           $rootScope.currency.factor = $rootScope.currency.bitstamp = res.data.bitstamp;
         });
-      } else if (currency === 'mFNI') {
+      } else if (currency === 'mFINI') {
         $rootScope.currency.factor = 1000;
-      } else if (currency === 'uFNI') {
+      } else if (currency === 'uFINI') {
         $rootScope.currency.factor = 1000000;
       } else {
         $rootScope.currency.factor = 1;

@@ -1,0 +1,10 @@
+{
+  "description": "A full Bitcoin node build with Bitcore",
+  "repository": "https://github.com/user/project",
+  "license": "MIT",
+  "readme": "README.md",
+  "dependencies": {
+    "bitcore-lib-finite": "zy0n/bitcore-lib-finite",
+    "bitcore-node-finite": "zy0n/bitcore-node-finite"
+  }
+}
